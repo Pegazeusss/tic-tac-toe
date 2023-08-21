@@ -72,6 +72,7 @@ function checkScore() {
       updateScoreDisplay();
       finished = true;
       numOfCircleWins++;
+      numOfMoves = 0;
       return;
     }
   });
@@ -88,6 +89,7 @@ function checkScore() {
       updateScoreDisplay();
       finished = true;
       numOfCrossWins++;
+      numOfMoves = 0;
       return;
     }
     countDown();
